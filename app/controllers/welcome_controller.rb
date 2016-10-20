@@ -6,7 +6,7 @@ class WelcomeController < ApplicationController
   end
 
   def show
-    if [:id]
+    if params[:id]
       @id = params[:id].capitalize
     else
       'visitor'.capitalize

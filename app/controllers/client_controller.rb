@@ -1,4 +1,4 @@
-class Clientcontroller < ApplicationController
+class ClientController < ApplicationController
 
   def default
     @clientmessage = "Welcome, potential future employer."
