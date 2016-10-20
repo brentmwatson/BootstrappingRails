@@ -1,8 +1,12 @@
-<div>
-  <h1><%= @welcome %></h1>
-  <div>
-    <%= @welcome_subtitle%>
+<div class="container">
+  <div class= "row">
+    <div class= "col-xs-4">
+
+      <h1><%= @welcome %></h1>
+      <%= image_tag ("gatsby") %>
+      <%= @welcome_subtitle%>
+    </div>
   </div>
 </div>
 
-<%=link_to "Home", client_path %>
+<%=link_to "Interested?", client_path %>

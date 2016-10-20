@@ -1,6 +1,11 @@
 <div class="container">
   <div class="row">
+    <div class="col-xs-2">
     <h1><%= @clientmessage %></h1>
+    <%= image_tag ("doctor") %>
     <h2> I know a lot about, <%= @job %></h2>
+   <%= link_to "Home", root_path %>
+   <%=link_to "Back", client_path %>
+  </div>
   </div>
 </div>

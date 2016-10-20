@@ -1,5 +1,11 @@
-<div>
-<h1><%= @clientmessage %></h1>
-<h2><%= @clientsubtitle %></h2>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-5">
+      <h1><%= @clientmessage %></h1>
+      <h2><%= @clientsubtitle %></h2>
+      <%= image_tag ("amy_s") %>
+    </div>
+  </div>
 </div>
- <%= link_to "Home2", root_path %>
+ <%= link_to "Home", root_path %>
+ <%= link_to "Skills", skills_path %>

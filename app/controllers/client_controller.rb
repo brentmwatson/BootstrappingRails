@@ -10,7 +10,7 @@ class ClientController < ApplicationController
     if params[:job]
       @job = params[:job]
     else
-
+       "everything"
     end
   end
 
